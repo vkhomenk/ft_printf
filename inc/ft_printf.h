@@ -18,5 +18,12 @@
 #include <stdio.h>
 
 int		ft_printf(const char *restrict format, ...);
-
+/*
+typedef struct  s_data
+{
+    int         flag;
+    int         minwidth;
+    int         maxwidth;
+};
+*/
 #endif

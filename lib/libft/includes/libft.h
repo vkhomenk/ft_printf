@@ -91,8 +91,8 @@ void				ft_intiter(int *tab, unsigned int length, void (*f)(int *));
 int					ft_power(int nb, int power);
 int					ft_atoi_base(const char *nptr, int base);
 char				*ft_itoa_base(int n, int base);
-size_t				ft_nbrlen(long nbr);
-size_t				ft_nbrlen_base(long nbr, size_t base);
+size_t				ft_nbrlen(long long int nbr);
+size_t				ft_nbrlen_base(long long int nbr, size_t base);
 void				**ft_matrixalloc(unsigned int row,
 					unsigned int col, size_t size);
 void				ft_matrixdel(void ***matr, unsigned int row);

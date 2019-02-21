@@ -16,9 +16,6 @@ int		main(int ac, char **av)
 {
 	if (!ac || !av[0][0])
 		return (0);
-	ft_printf("cdfs", 'A', 163, 864.123, 20, "geeksfordeeks");
-/*	if (ac < 2)
-		return (0);
-	ft_printf(av[1]);
-*/	return (0);
+	ft_printf("cdfds %wer qwerty\n");
+	return (0);
 }

@@ -25,7 +25,7 @@ int		ft_power(int nb, int power)
 	tmp = (long long)nb;
 	while (j++ < power)
 	{
-		res = res * tmp;
+		res *= tmp;
 		if (res > 2147483647 || res < -2147483648)
 			return (0);
 	}

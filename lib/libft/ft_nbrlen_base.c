@@ -12,17 +12,17 @@
 
 #include "includes/libft.h"
 
-size_t	ft_nbrlen_base(long nbr, size_t base)
+size_t	ft_nbrlen_base(long long int nbr, size_t base)
 {
-	int				count;
-	unsigned int	sign;
-	unsigned int	tmp;
+	size_t				count;
+	int					sign;
+	unsigned long long	tmp;
 
 	if (base < 2 || nbr == 0)
 		return (base < 2 ? 0 : 1);
 	count = nbr < 0;
 	sign = nbr < 0 ? -1 : 1;
-	tmp = (unsigned int)nbr * sign;
+	tmp = (unsigned long long)nbr * sign;
 	while (tmp >= base)
 	{
 		tmp /= base;
